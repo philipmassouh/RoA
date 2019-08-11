@@ -1,0 +1,20 @@
+key:
+
+1 - python code
+2 - pseudocode
+3 - asymptotic analysis
+
+sorting:
+	bubble: 1,
+	counting: 
+	heap:1,
+	insertion:1,
+	merge:1,
+	quick:
+	radix:
+
+primality:
+	sieve:
+	fermat:
+
+

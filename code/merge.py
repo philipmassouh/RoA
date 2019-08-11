@@ -27,14 +27,3 @@ def mergeSort(a):
 		mergeSort(l)
 		mergeSort(r)
 		merge(a,l,r)
-
-# Test code
-r = int(input("Enter the range of the elements to be randomly generated: "))
-n = int(input("Enter the size of the array in which to generate said elements: "))
-a =[]
-for x in range(n):
-	a.append(random.randint(0,r))
-print(a)
-c = int(input("Enter zero to sort and display, anything else to quit: "))
-mergeSort(a)
-print(a)
